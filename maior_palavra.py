@@ -1,1 +1,12 @@
-
+def maior_palavra.py
+    for palavra in ".,!?:":
+        texto = texto.replace(palavra, "")
+p = texto.split()
+if not p:
+    return " "
+maior = " "       
+for contador in P:
+    if len(contador) >= len(maior):
+        maior = contador
+return maior
+print(maior_palavra(Digite uma frase Aleatoria))        
